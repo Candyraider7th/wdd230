@@ -11,6 +11,7 @@ header {
 }
 
 footer{
+  display: grid;
   background-color: #69F7BE;
   border: 1px solid #ccc;
   padding: 10px;
