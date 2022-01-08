@@ -11,12 +11,11 @@ header {
 }
 
 footer{
-  display: flex;
   background-color: #69F7BE;
   border: 1px solid #ccc;
   padding: 10px;
   box-shadow: 5px 5px 5px #999;
-  align-items: center;
+  text-align: center;
   font-family: HK Grotesk;
 }
 
