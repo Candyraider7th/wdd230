@@ -2,11 +2,11 @@ header {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
-    background: #69F7BE;  
+    background-color:  #69F7BE;  
 }
 
 footer{
-  background: #69F7BE
+  background-color: #69F7BE;
 }
 
 .portrait{
