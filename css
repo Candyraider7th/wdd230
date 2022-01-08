@@ -2,3 +2,9 @@ header {
     display: grid;
     grid-template-columns: auto auto;
 }
+
+.portrait{
+  grid-column: 1/2;
+
+.name{
+  grid-column: 2/3;
