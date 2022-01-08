@@ -5,6 +5,7 @@ header {
 
 .portrait{
   grid-column: 1/2;
-
+}
 .name{
   grid-column: 2/3;
+}
