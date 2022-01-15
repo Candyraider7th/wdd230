@@ -1,20 +1,31 @@
-header {
-    background: white;  
-    font-size: 1em; 
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 130px auto;
-    align-items: center;
-  }
-  
-  nav ul {
-      list-style: none; 
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
-      margin: 0;
-  }
-  
-  body {
-    background-color: black;
-    padding: 20px;
-  }
+header{
+    text-align: center;
+}
+
+main{
+display: grid;
+padding: 20px;
+margin: 30px;
+column-gap: 40px;
+}
+
+@media only screen and (min-width: 550px) {
+  main {
+    grid-template-columns: 1fr;
+}
+}
+@media only screen and (min-width: 700px) {
+  main {
+  grid-template-columns: 1fr 1fr;
+}
+}
+@media only screen and (min-width: 992px) {
+  main {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+}
+footer{
+    padding: 10px;
+    box-shadow: 5px 5px 5px #999;
+    text-align: center;
+}
