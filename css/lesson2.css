@@ -29,3 +29,6 @@ footer{
     box-shadow: 5px 5px 5px #999;
     text-align: center;
 }
+image{
+    float: left;
+}
