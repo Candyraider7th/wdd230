@@ -2,6 +2,7 @@
 
 header{
     text-align: center;
+    background: green;
 }
 
 main{
@@ -35,6 +36,7 @@ footer{
     padding: 10px;
     box-shadow: 5px 5px 5px #999;
     text-align: center;
+    background: green;
 }
 image{
     align-items: left;
