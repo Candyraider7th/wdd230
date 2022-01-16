@@ -9,6 +9,7 @@ display: grid;
 padding: 20px;
 margin: 30px;
 column-gap: 40px;
+background-color: white;
 }
 
 body{
