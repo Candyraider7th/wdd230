@@ -19,17 +19,17 @@ font-family: 'Oswald', sans-serif;
 
 @media only screen and (min-width: 550px) {
   main {
-    grid-template-columns: 1fr;
+    grid-template-columns: 400px;
 }
 }
 @media only screen and (min-width: 700px) {
   main {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 400px 400px;
 }
 }
 @media only screen and (min-width: 992px) {
   main {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 400px 400px 400px;
 }
 }
 footer{
