@@ -9,11 +9,12 @@ display: grid;
 padding: 20px;
 margin: 30px;
 column-gap: 40px;
-background-color: white;
+background-color: #69F7BE;
 }
 
 body{
-font-family: 'Oswald', sans-serif;  
+font-family: 'Oswald', sans-serif;
+background-color: white;  
 }
 
 @media only screen and (min-width: 550px) {
