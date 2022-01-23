@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+header{
+  background-color: #33990F;
+}
+
+main{
+  background-color: #998E0F;
+  text-align: center;
+  display: block;
+}
+
+h1,h2{
+  font-family: 'PT Serif', serif;
+}
+
+h1{
+  color: #EBD912;
+}
+
+p,li{
+  font-family: sans-serif, Serif;
+}
+
+li{
+  color:black;
+}
+
+footer{
+  background-color: #45E60B;
+}
+
+nav ul {
+    background-color: #998E0F;
+}
+
+@media only screen and (min-width: 880px) {
+    main {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+  .name{
+    width: 400px;
+    flex-grow: 2;
+  }
+
+  .purpose{
+    width: 400px;
+  }
+  
+  .description{
+    width: 700px;
+    flex-shrink: 0.5;
+  }
+    
+nav ul {
+    list-style: none; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
+    margin: 0;
+    background-color: #998E0F;
+}
+}
