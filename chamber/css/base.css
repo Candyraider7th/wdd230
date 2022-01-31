@@ -1,84 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+/* Small/Phone View ***************/
 
 header{
-  background-color: #33990F;
-}
-
-main{
-  background-color: #998E0F;
-  text-align: center;
-  display: block;
-}
-
-h1,h2{
-  font-family: 'PT Serif', serif;
-}
-
-h1{
-  color: #EBD912;
-}
-
-p,li{
-  font-family: sans-serif, Serif;
-}
-
-li{
-  color:black;
-}
-
-footer{
-  background-color: #45E60B;
-}
-
-nav ul {
-    background-color: #998E0F;
-}
-
-@media only screen and (min-width: 880px) {
-    main {
     display: flex;
     flex-direction: row;
     column-gap: 20px;
-}
-
-  .name{
-    width: 400px;
-    flex-grow: 2;
-  }
-
-  .purpose{
-    width: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #33990F;
+    box-shadow: 5px 5px 5px #999;
   }
   
-  .description{
-    width: 700px;
-    flex-shrink: 0.5;
+  img.top_photo{
+      width:120px; /* you can use % */
+      height: 120px;
   }
-    
-nav ul {
-    list-style: none; 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
-    margin: 0;
+  
+  .break {
+    flex-basis: 100%;
+    height: 0;
+  }
+  
+  .day{
+    background-color: #998E0F ;
+    align-self: center;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  nav {
+      margin: 0 auto;
+      max-width: 760px;
+  }
+  .navigation {
+      list-style: none;
+      padding: 0;
+  }
+  .navigation li {
+      display: none;
+  }
+  
+  .responsive li {
+      display: block;
+  }
+  
+  .navigation li:first-child {
+      display: block;
+  }
+  
+  .navigation a {
+      display: block;
+      padding: 0.75rem;
+      text-align: left;
+      text-decoration: none;
+      color: black;
+      font-weight: 700;
+      transition: 0.5s;
+      font-size: clamp(1rem, 2vmin, 1.5rem);
+  }
+  
+  .navigation a:hover {
+      color: white;
+      background-color: black;
+  }
+  
+  section {
+    border-style: solid;
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+  }
+  
+  main{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: #998E0F;
-}
-}
-
-@media only screen and (max-width: 28.5em){
-.newstlye{
-  background-color:red;
-  display:none;
-}
-.navigation {
-  display: flex;
-    }
-.navigation li{
-  display: none;
-  flex: 1 1 100%
-  } 
-.navigation li:first-child{
-    display: block;
+    margin: 10px;
+    box-shadow: 5px 5px 5px #999;
   }
-}
-
-section {border-style: solid;}
+  
+  footer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #45E60B;
+    text-align: center;
+    box-shadow: 5px 5px 5px #999;
+    align-items: center;
+    
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+  
+  h1,h2{
+    font-family: 'PT Serif', serif;
+  }
+  
+  h1{
+    color: #EBD912;
+  }
+  
+  p,li{
+    font-family: sans-serif, Serif;
+  }
+  
+  li{
+    color:black;
+  }
+  
+  nav ul {
+      background-color: #998E0F;
+  }
+  
+  /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+    <ul class="navigation responsive">
+  */
+  
+  
