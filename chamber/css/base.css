@@ -1,5 +1,4 @@
 /* Small/Phone View ***************/
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 header{
   display: flex;
@@ -20,7 +19,6 @@ img.top_photo{
   flex-basis: 100%;
   height: 0;
 }
-
 .day{
   background-color: #998E0F ;
   align-self: center;
@@ -35,6 +33,11 @@ nav {
 	max-width: 760px;
 }
 
+.hero{
+  position:relative;
+  background-image: url("https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/rsz_jemez-mountains%20(1).jpg?v=1644122648647");
+}
+
 .jous {
   list-style: none;
 	padding: 0;
@@ -47,10 +50,36 @@ nav {
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
   background-color:#998E0F;
+  position: absolute;
+  bottom: 20px; 
+  right: 20px;
 }
 .jous:hover {
 	color: white;
 	background-color: black;
+}
+
+.jous2{
+  list-style: none;
+	padding: 0;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+  background-color:#998E0F;
+  width: 90%;
+}
+
+.jous2:hover {
+  color: white;
+	background-color: black;
+}
+
+.news{
+ overflow: hidden;
 }
 
 .navigation {
@@ -90,6 +119,13 @@ section {
   margin: 20px;
   width: 300px;
   height: 200px;
+  text-align: center;
+  background-color: #33990F;
+}
+
+.highlight_1{
+  width: 300px;
+  height: 50%;
 }
 
 main{
@@ -141,9 +177,6 @@ nav ul {
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
 */
-.hero{
-  background-image: url("rsz_jemez_mountains(1).jpg");
-}
 
 [class*="subsection"]{
   border-style: solid;
@@ -154,4 +187,18 @@ nav ul {
 
 .subsection3{
   display: none;
+}
+
+.join{
+  display: none;
+}
+
+button{
+  border-radius: 6px;
+}
+
+.banner{
+  width:100%;
+  background-color: #998E0F;
+  text-align: center;
 }

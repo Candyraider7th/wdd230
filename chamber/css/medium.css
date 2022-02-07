@@ -27,6 +27,7 @@
   .join {
   width: 317px;
   height: 300px;
+  display: initial;
   }
   .weather {
   width: 317px;
@@ -35,4 +36,10 @@
   .subsection3{
     display: none;
   }
+  
+  .highlight_1{
+  width: 50%;
+  height: 50%;
+  display: flex;
+}
 }

@@ -29,6 +29,7 @@
     grid-row: 3/4;
     width: auto;
     height: auto;
+    display: initial;
   }
   
   .hero{
@@ -44,9 +45,35 @@
   .highlight_1{
     grid-column: 4/5;
     grid-row: 1/4;
-  }
+    width: 300px;
+    height: auto;
+    display: inline;
+    font-size: smaller;
+    }
   
   .subsection3{
-    display: initial;
+    display: block;
+    
   }
+  
+  .truck_photo{
+      width: 45%;
+      height: auto;
+  }
+  
+  .program_photo{
+      width: 45%;
+      height: auto;
+  }
+  
+  .treefort_photo{
+      width: 33%;
+      height: auto;
+  }
+  [class*="subsection"]{
+  border-style: solid;
+  margin: 0.5px;
+  width: auto;
+  height: 32.5%;
+    }
 }
