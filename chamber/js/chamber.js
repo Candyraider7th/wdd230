@@ -53,4 +53,12 @@ let daynumber = d.getDate();
  
 document.querySelector(".day").innerHTML = day +', ' + daynumber + ' ' + month + ' '+ currentyear;
 
+const message = document.querySelector('.msg');
+
+if (today.getDay() == 1 || today.getDay() == 2) {
+  message.style.display = 'block';
+} else {
+  message.style.display = 'none';
+}
+
 
