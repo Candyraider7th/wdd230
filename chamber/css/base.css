@@ -10,6 +10,28 @@ header{
   box-shadow: 5px 5px 5px #999;
 }
 
+.hero{
+  position:relative;
+}
+
+.welcome{
+  position:relative;
+  bottom:225px;
+}
+
+.small{
+  position:relative;
+  bottom:250px;
+}
+
+.medium{
+  display: none;
+}
+
+.large{
+  display: none;
+}
+
 img.top_photo{
     width:120px; /* you can use % */
     height: 120px;
@@ -31,11 +53,6 @@ img.top_photo{
 nav {
 	margin: 0 auto;
 	max-width: 760px;
-}
-
-.hero{
-  position:relative;
-  background-image: url("https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/rsz_1wdd230-org.jpg?v=1644717110100");
 }
 
 .jous {
@@ -201,4 +218,17 @@ button{
   width:100%;
   background-color: #998E0F;
   text-align: center;
+}
+
+.weather{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.weather_photo{
+      position: relative;
+      left: 40px;
+        width: 20%;
+      height: auto;
 }

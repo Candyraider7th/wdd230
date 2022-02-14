@@ -14,7 +14,6 @@
 		display: none;
 	}
   
-
 }
 
 @media only screen and (min-width: 40.5em) {
@@ -41,6 +40,26 @@
   width: 50%;
   height: 50%;
   display: flex;
+
+  
+}
+  .welcome{
+    position:relative;
+    bottom:320px;
+  }
+  
+.small{
+  display: none;
+}
+
+.medium{
+  display:initial;
+  position:relative;
+  bottom:340px;
+}
+
+.large{
+  display: none;
 }
 }
 
@@ -49,3 +68,4 @@
     display: block;
   }
 }
+

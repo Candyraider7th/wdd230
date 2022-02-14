@@ -20,7 +20,7 @@
       
       <img
         class="top_photo"
-        src="https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/rsz_do-shopping-1416501%20(1).jpg?v=1642898815768"
+        src="https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/Do%20Shopping%20WEBp.webp?v=1644719023824"
         alt="top_photo"
       />
 
@@ -61,11 +61,18 @@
       <div class="break"></div>
       <!-- break -->
       <p class="day"></p>
-    
     </header>
     <main>
       <section class="hero">
-        <h2>Welcome to Los Alamos</h2>
+        <picture>
+              <source media="(min-width:60.5em)" srcset="https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/Medium%20Viewport.jpg?v=1644726171208">
+              <source media="(min-width:465px)" srcset="https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/small%20viewport.jpg?v=1644733640580">
+              <img src="https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/rsz_1wdd230-org.jpg?v=1644717110100" alt="Large" style="height:100%; width:100%;">
+            </picture>
+        <h2 class="welcome">Welcome to Los Alamos</h2>
+        <h2 class="small">Samll</h2>
+        <h2 class="medium">Medium</h2>
+        <h2 class="large">Large</h2>
         <button class="jous" type="button">Join the Chamber</button>
       </section>
       <section class="news">
@@ -97,12 +104,17 @@
       </section>
       <section class="weather">
         <h3>Weather</h3>
-        <h2>33&#8451;</h2>
+        <h2><span id="temp">57</span><span>&#8451;</span></h2>
         <h2 class="cloud">Partly cloudy</h2>
-        <p>
-          Wind Speed: 2.5kph
-          <br />Wind Chill: N/A
-        </p>
+        <img
+            class="weather_photo"
+            src="https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/rsz_partly_cloudy.jpg?v=1644259627673"
+            alt="weahter_photo"
+          />
+        <p>Wind Speed: <span id="ws">2</span><span>km/h</span></p>
+          
+          
+        <p>Wind Chill: <span id="chill"> </span></p>
       </section>
       <section class="highlight_1">
         <section class="subsection1">
@@ -150,7 +162,7 @@
     <footer>
       <img
         class="bottom_photo"
-        src="https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/rsz_do-shopping-1416501%20(1).jpg?v=1642898815768"
+        src="https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/Do%20Shopping%20WEBp.webp?v=1644719023824"
         alt="bottom_photo"
       />
       <p>
@@ -169,6 +181,6 @@
       <p class="year"></p>
       <p id="updated"></p>
     </footer>
-    <script src="/wdd230/chamber/js/chamber.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

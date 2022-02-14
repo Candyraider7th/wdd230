@@ -61,4 +61,11 @@ if (today.getDay() == 1 || today.getDay() == 2) {
   message.style.display = 'none';
 }
 
+var wind= document.getElementById("ws").textContent;
+var temp= document.getElementById("temp").textContent;
+var chill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wind,0.16)) + (0.4275*temp*Math.pow(wind,0.16));
+var windChill= Math.round(chill);
+document.getElementById("chill").textContent = windChill;
+
+
 
