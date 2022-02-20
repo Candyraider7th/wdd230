@@ -96,4 +96,43 @@
   width: auto;
   height: 32.5%;
     }
+
+    .discover-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+      
+      .slowload-1{
+      grid-column: 1/2;
+      grid-row: 1/2;
+      }
+        .slowload-2{
+          grid-column: 2/3;
+      grid-row: 1/2;
+      }
+        .slowload-3{
+      grid-column: 3/4;
+      grid-row: 1/2;
+      }
+        .slowload-4{
+          grid-column: 1/2;
+      grid-row: 2/3;
+      }
+        .slowload-5{
+          grid-column: 2/3;
+      grid-row: 2/3;
+      }
+        .slowload-6{
+          grid-column: 3/4;
+      grid-row: 2/3;
+      }
+        .slowload-7{
+          grid-column: 1/2;
+      grid-row: 3/4;
+      }
+        .slowload-8{
+          grid-column: 2/3;
+      grid-row: 3/4;
+      }
 }
