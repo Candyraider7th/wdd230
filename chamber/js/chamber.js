@@ -60,12 +60,18 @@ if (today.getDay() == 1 || today.getDay() == 2) {
 } else {
   message.style.display = 'none';
 }
-
 var wind= document.getElementById("ws").textContent;
 var temp= document.getElementById("temp").textContent;
+
+if ( temp <= 10 && wind >= 4.8 ) {
+
 var chill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wind,0.16)) + (0.4275*temp*Math.pow(wind,0.16));
 var windChill= Math.round(chill);
 document.getElementById("chill").textContent = windChill;
+} else {
+  document.getElementById("chill").textContent = "None";
+}
 
-
+let date = new Date();
+document.querySelector('#date').value = date;
 

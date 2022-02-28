@@ -224,6 +224,10 @@ nav ul {
   display: none;
 }
 
+.join-grid{
+  display: flex;
+}
+
 button{
   border-radius: 6px;
 }
