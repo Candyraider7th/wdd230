@@ -60,7 +60,7 @@ div {
     grid-template-columns: 1fr 1fr;
   }
   .list{
-    display: block;
+    display: none;
   }
 }
 
