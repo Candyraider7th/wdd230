@@ -14,17 +14,13 @@
     <link rel="stylesheet" href="/wdd230/chamber/css/base.css" />
     <link rel="stylesheet" href="/wdd230/chamber/css/medium.css" />
     <link rel="stylesheet" href="/wdd230/chamber/css/large.css" />
-    <link rel="stylesheet" href="/wdd230/directory/directory.css" />
   </head>
   <body>
     <header>
       <div class="banner">
-        <h3 class="msg">
-          🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
-          p.m.
-        </h3>
+        <h3 class="msg">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h3>
       </div>
-
+      
       <img
         class="top_photo"
         src="https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/Do%20Shopping%20WEBp.webp?v=1644719023824"
@@ -68,16 +64,58 @@
       <div class="break"></div>
       <!-- break -->
       <p class="day"></p>
-        <div>
-      <button onclick="buttonlist()"> List</button>
-      <button onclick="buttoncards()"> Cards</button>
-      </div>
     </header>
     <main>
-      <div class="cards" id="cards_directory" ></div>
-      <div class="list hide"  id="list_directory" ></div>
+    <div class="board">
+      <section class="board"><img src="https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/President.jpg?v=1647751368799" alt="president"><h2>
+        President
+        </h2><h3>
+        Alice Jones
+        </h3></section>
+      <section class="board"><img src="https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/Vice%20President.jpg?v=1647751368799" alt="vice_president"><h2>
+        Sarah Markus
+        </h2><h3>
+        Vice President
+        </h3></section>
+      <section class="board"><img src="https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/Treasurer.jpg?v=1647751368798" alt="Treasurer"><h2>
+        Tim Goodwill
+        </h2><h3>
+        Treasurer
+        </h3></section>
+      </div>
+  
+  <div>
+    
+      
+  <form class="contact" action="/my-handling-form-page" method="post">
+  <ul>
+  <li>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </li>
+  <li>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_email">
+  </li>
+  <li>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </li>
+    <li>
+    <label for="phonenumber">Phone Number:</label>
+    <input type="phonenumher" name="phone_number">
+  </li>
+   <li class="button">
+  <button type="submit">Send your message</button>
+  </li>
+  </ul>
+</form>
+      </div>
     </main>
-       <footer>
+
+
+
+    <footer>
       <img
         class="bottom_photo"
         src="https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/Do%20Shopping%20WEBp.webp?v=1644719023824"
@@ -99,7 +137,7 @@
       <p class="year"></p>
       <p id="updated"></p>
     </footer>
-    <script src="/wdd230/chamber/js/chamber.js"></script>
-    <script src="/wdd230/directory/directory.js"></script>
+    <script src="script.js"></script>
+    <script src="weatherapi.js"></script>
   </body>
 </html>
