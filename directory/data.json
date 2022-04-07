@@ -1,32 +1,33 @@
 {
     "businesses": [
       {
-        "address": "82 Grand Rd. Los Alamos, NM 90805",
-        "phonenumber": "505-606-4204",
-        "website": "https://Random1.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
-        "name": "Business Name"
+        "address": "72-80 Okpu-Umuobo Rd, Aba, Abia State, Nigeria",
+        "phonenumber": "(234) 80-3903-4810",
+        "website": "https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng",
+        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/800x500/aba-nigeria-temple-lds-1636397-wallpaper.jpg",
+        "name": "Aba Nigeria Temple"
+      
       },
       {
-        "address": "81 E. Vermont Court Espanola, NM 91405",
-        "phonenumber": "505-667-4920",
-        "website": "https://Random1.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
-        "name": "Business Name"
+        "address": "10301 San Francisco Rd, NE Albuquerque NM 87122-3437 United States",
+        "phonenumber": "(1) 505-667-4920",
+        "website": "https://www.churchofjesuschrist.org/temples/details/albuquerque-new-mexico-temple?lang=eng",
+        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/albuquerque-new-mexico/800x800/albuquerque-temple-lds-820684-wallpaper.jpg",
+        "name": "Albuquerque New Mexico Temple"
       },
       {
-        "address": "7 Division St. White Rock, NM 92126",
-        "phonenumber": "505-877-5929",
-        "website": "https://Random1.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
-        "name": "Business Name"
+        "address": "750 S 2nd E, Rexburg ID 83440-5404, United States",
+        "phonenumber": "(1) 208-656-0880",
+        "website": "https://www.churchofjesuschrist.org/temples/details/rexburg-idaho-temple?lang=eng",
+        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rexburg-idaho/800x500/rexburg-temple-lds-453574-wallpaper.jpg",
+        "name": "Rexburg Idaho Temple"
       },
       {
-        "address": "71 Catherine Drive Sante Fe, NM 90744",
-        "phonenumber": "505-564-3483",
-        "website": "https://Random1.com",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
-        "name": "Business Name"
+        "address": "7474 Charmant Dr, San Diego CA 92122-5000, United States",
+        "phonenumber": "(1) 858-622-0991",
+        "website": "https://www.churchofjesuschrist.org/temples/details/albuquerque-new-mexico-temple?lang=eng",
+        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/san-diego-california/800x500/san-diego-temple-765109-wallpaper.jpg",
+        "name": "San Diego California Temple"
       }
     ]
   }
