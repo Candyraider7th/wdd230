@@ -17,7 +17,16 @@
   </head>
   <body>
     <header>
-      <text> The Temple Inn & Suites</text>
+
+
+      <nav>
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="temple.html">Temple</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
       <div class="social">
         <a href="https://www.facebook.com">
           <img
@@ -31,81 +40,21 @@
             alt="Youtube icon"
           />
         </a>
-        <button type="button">Book Me</button>
       </div>
-      <nav>
-        <ul class="navigation">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="temple.html">Temple</a></li>
-          <li><a href="reservation.html">Reservation</a></li>
-          <li><a href="services.html">Services</a></li>
-        </ul>
-      </nav>
+      <div class="break"></div>
+      <!-- break -->
+      <p class="day"></p>
+        <div>
+      <button onclick="buttonlist()"> List</button>
+      <button onclick="buttoncards()"> Cards</button>
+      </div>
     </header>
-    <main class="service-grid">
-      <div>
-        <h2>
-          Reception options
-        </h2>
-        <p>
-          We at The Temple Inn & Suites would be overjoyed to be able host your wedding recption.
-        </p>
-          <ul>
-            <li>15% discount on events</li>
-            <li>10% discount on advertising</li>
-            <li>Fee of $50/month</li>
-          </ul>
-      </div>
-      <div>
-        <h2>
-          Temple Missionary Page
-        </h2>
-        <form action="/wdd230/join/thanks.html">
-        <fieldset>
-          <label for="fname">First name:</label><br />
-          <input type="text" id="fname" name="fname" placeholder="Joe" required /><br />
-          <label for="lname">Last name:</label><br />
-          <input type="text" id="lname" name="lname" placeholder="Doe" required /><br />
-          <label for="bposition">Business Position:</label><br />
-          <input
-            type="text"
-            id="position"
-            name="position"
-            pattern="[A-Za-z -]{7,}"
-            title="Business Position"
-          /><br />
-          <label for="email">Email:</label><br />
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="email@emxample.com"
-            required
-          /><br />
-          <label for="tel">Cell Phone Number:</label><br />
-          <input type="tel" id="tel" name="tel" placeholder="123-456-7890" required /><br />
-          <label for="bname">Business Name:</label><br />
-          <input type="text" id="bname" name="bname" placeholder="Joe's Pizzaria" required /><br />
-          <label for="tel">Business Description:</label><br />
-          <textarea id="w3review" name="w3review" rows="4" cols="50">
-  Briefly describe your business!
-  </textarea
-          >
-        </fieldset>
-        <fieldset>
-          <div>Membership</div>
-          <label><input type="radio" name="Membership" value="NP Membership"> NP Membership</label>
-          <label><input type="radio" name="Membership" value="Bronze Membership"> Bronze Membership</label>
-          <label><input type="radio" name="Membership" value="Silver Membership"> Silver Membership</label>
-          <label><input type="radio" name="Membership" value="Gold Membership"> Gold Membership</label>
-        
-        </fieldset>
-        <input type="submit" value="Submit" />
-        <input id="date" type="hidden" name="todaydate">
-      </form>
-      </div>
+    <main>
+      <div class="cards" id="cards_directory" ></div>
     </main>
-    <script src="js/chamber.js"></script>
-    <script src="js/weatherapi.js"></script>
+    <footer>
+    </footer>
+    <script src="/wdd230/chamber/js/chamber.js"></script>
+    <script src="js/temple.js"></script>
   </body>
 </html>
