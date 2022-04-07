@@ -66,14 +66,6 @@
           <input type="text" id="fname" name="fname" placeholder="Joe" required /><br />
           <label for="lname">Last name:</label><br />
           <input type="text" id="lname" name="lname" placeholder="Doe" required /><br />
-          <label for="bposition">Business Position:</label><br />
-          <input
-            type="text"
-            id="position"
-            name="position"
-            pattern="[A-Za-z -]{7,}"
-            title="Business Position"
-          /><br />
           <label for="email">Email:</label><br />
           <input
             type="email"
@@ -83,23 +75,7 @@
             required
           /><br />
           <label for="tel">Cell Phone Number:</label><br />
-          <input type="tel" id="tel" name="tel" placeholder="123-456-7890" required /><br />
-          <label for="bname">Business Name:</label><br />
-          <input type="text" id="bname" name="bname" placeholder="Joe's Pizzaria" required /><br />
-          <label for="tel">Business Description:</label><br />
-          <textarea id="w3review" name="w3review" rows="4" cols="50">
-  Briefly describe your business!
-  </textarea
-          >
-        </fieldset>
-        <fieldset>
-          <div>Membership</div>
-          <label><input type="radio" name="Membership" value="NP Membership"> NP Membership</label>
-          <label><input type="radio" name="Membership" value="Bronze Membership"> Bronze Membership</label>
-          <label><input type="radio" name="Membership" value="Silver Membership"> Silver Membership</label>
-          <label><input type="radio" name="Membership" value="Gold Membership"> Gold Membership</label>
-        
-        </fieldset>
+          <input type="tel" id="tel" name="tel" required /><br />
         <input type="submit" value="Submit" />
         <input id="date" type="hidden" name="todaydate">
       </form>
