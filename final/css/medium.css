@@ -1,0 +1,72 @@
+/* Media Query for medium+ views */
+@media only screen and (min-width: 60.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+  
+}
+
+@media only screen and (min-width: 40.5em) {
+  section {
+  border-style: solid;
+  margin: 20px;
+  width: 600px;
+  height: 300px;
+    }
+  .join {
+  width: 317px;
+  height: 300px;
+  display: initial;
+  }
+  .weather {
+  width: 317px;
+  height: 300px;
+  }
+  .subsection3{
+    display: none;
+  }
+  
+  .highlight_1{
+  width: 50%;
+  height: 50%;
+  display: flex;
+
+  
+}
+  .welcome{
+    position:relative;
+    bottom:320px;
+  }
+  
+.small{
+  display: none;
+}
+
+.medium{
+  display:initial;
+  position:relative;
+  bottom:340px;
+}
+
+.large{
+  display: none;
+}
+  
+}
+
+@media only screen and (max-width: 970px) {
+  .highlight_1{
+    display: block;
+  }
+}
+

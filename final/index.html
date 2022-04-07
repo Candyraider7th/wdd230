@@ -1,19 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Suite Main Page</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The purpose of this webpage will be to advertise and provide online servies for customers
-    of the Temple Inn & Suite.">
-    <link rel="stylesheet" href="../css/normalize.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The purpose of this webpage will be to advertise and provide online servies for customers
+    of the Temple Inn & Suite."
+    />
+    <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
   </head>
   <body>
-    <script src="/wdd230/chamber/js/chamber.js"></script>
-    <script src="/wdd230/chamber/js/weatherapi.js"></script>
+    <header>
+      <text> The Temple Inn &amp Suites</text>
+      <div class="social">
+        <a href="https://www.facebook.com">
+          <img
+            src="https://cdn.glitch.me/934316f4-0bc2-405e-b7f5-5910880fbdbf%2Fsocial-facebook-box-blue-icon.png?v=1633766179025"
+            alt="Facebook icon"
+          />
+        </a>
+        <a href="https://www.youtube.com">
+          <img
+            src="https://cdn.glitch.me/934316f4-0bc2-405e-b7f5-5910880fbdbf%2Fyoutube-icon%20(3).png?v=1633766089444"
+            alt="Youtube icon"
+          />
+        </a>
+        <button type="button">Book Me</button>
+      </div>
+      <nav>
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="temple.html">Temple</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="index-grid">
+      <section class="contact">
+      <h2>
+        Contact Info:
+        </h2>
+        <p>
+          Welcome to the Temple Inn &amp Suite
+        </p>
+        <h3>
+          Phone Number: 495-493-6935
+        </h3>
+      </section>
+      <section class="info">
+        <h2>
+          About the Rexburg Temple
+        </h2>
+        <h3>
+          Announced: 12 December 2003
+        </h3>
+        <h3>
+          Groundbreaking: 30 July 2005
+        </h3>
+        <h3>
+          Dedicated: 10 February 2008
+        </h3>
+      </section>
+      <section class="forecast">
+        <h2>
+          3-Day Weather Forecast
+        </h2>
+        <h3>
+          
+        </h3>
+      </section>
+      <section class="weather">
+        <h2>Weather</h2>
+        <h3><span id="temp"></span><span>&#8457;</span></h3>
+        <h2 class="cloud">Partly cloudy</h2>
+        <img
+          class="weather_photo"
+          src="https://cdn.glitch.global/0d6e91e0-4221-4d75-9430-94d0566248f4/rsz_partly_cloudy.jpg?v=1644259627673"
+          alt="weahter_photo"
+        />
+        <p>Humidity: <span id="humidity"></span><span>&#37;</span></p>
+      </section>
+    </main>
+    <script src="js/chamber.js"></script>
+    <script src="js/weatherapi.js"></script>
   </body>
 </html>

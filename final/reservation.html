@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Suite Main Page</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The purpose of this webpage will be to advertise and provide online servies for customers
+    of the Temple Inn & Suite."
+    />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <header>
+      <text> The Temple Inn & Suites</text>
+      <div class="social">
+        <a href="https://www.facebook.com">
+          <img
+            src="https://cdn.glitch.me/934316f4-0bc2-405e-b7f5-5910880fbdbf%2Fsocial-facebook-box-blue-icon.png?v=1633766179025"
+            alt="Facebook icon"
+          />
+        </a>
+        <a href="https://www.youtube.com">
+          <img
+            src="https://cdn.glitch.me/934316f4-0bc2-405e-b7f5-5910880fbdbf%2Fyoutube-icon%20(3).png?v=1633766089444"
+            alt="Youtube icon"
+          />
+        </a>
+        <button type="button">Book Me</button>
+      </div>
+      <nav>
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="temple.html">Temple</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+        <main class="join-grid">
+      <form action="thanks.html">
+        <fieldset>
+          <label for="fname">Full name:</label><br />
+          <input type="text" id="fname" name="fname" required /><br />
+          <label for="lname">Home Country</label><br />
+          <input type="text" id="home" name="home" required /><br />
+          <label for="start">Start Date:</label><br />
+          <input type="date" id="start" name="trip-start"
+                 value="2018-07-22"
+                 min="2018-01-01"/><br />
+          <label for="end">End Date:</label><br />
+          <input type="date" id="end" name="trip-end"
+                 value="2018-07-22"
+                 max="2018-01-01"/><br />
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email@emxample.com"
+            required
+          /><br />
+          <label for="tel">Cell Phone Number:</label><br />
+          <input type="tel" id="tel" name="tel" required /><br />
+        </fieldset>
+          <fieldset>
+          <div>Room Numbers</div>
+          <label for="standardrooms">Number of Standard Rooms:</label>
+            <input type="number" id="standardrooms" name="standardrooms"
+                   min="1" max="10"><br />
+          <label for="jointrooms">Number of Joint Rooms:      </label>
+            <input type="number" id="jointrooms" name="jointrooms"
+                   min="1" max="10"><br />
+          <label for="suites">Number of Suites:        </label>
+            <input type="number" id="suites" name="suites"
+                   min="1" max="10"><br />
+          <label for="apartments">Number of Apartments:   </label>
+            <input type="number" id="apartments" name="apartments"
+                   min="1" max="10"><br />
+          <label for="accessiblerooms">Number of Accessible Rooms:</label>
+            <input type="number" id="accessible" name="accessible"
+                   min="1" max="10">
+          </fieldset>
+
+          
+        <fieldset>
+          <label for="tel">Special Accomodations or Comments</label><br />
+         <textarea id="w3review" name="w3review" rows="4" cols="50">
+              Tell us what you need!
+            </textarea>
+        </fieldset>
+        <input type="submit" value="Submit" />
+        <input id="date" type="hidden" name="todaydate">
+      </form>
+
+    </main>
+    <script src="js/chamber.js"></script>
+    <script src="js/weatherapi.js"></script>
+  </body>
+</html>
